@@ -23,7 +23,7 @@ Telegram bot to get id of any user, group, bot, channels and even stickers.
 
 1. Clone the repo
    ```markdown
-   git clone https://github.com/StarkBotsIndustries/ID-Bot
+   git clone https://github.com/Hilocv/identificarme
    ```
    
 2. Get a DATABASE_URL. If you don't know how, deploy using Heroku Button only or delete database things as it's not a compulsion.
