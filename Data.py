@@ -6,63 +6,56 @@ class Data:
     START = """
 Hey {}
 
-Welcome to {}
+BIENVENIDO to {}
 
-Using this bot you can get id of any group, user, bot, channel and even stickers with inline mode.
+Bot programado para saber cuál es tu id de Telegram o algún grupo
 
-Use below buttons to learn more !
-
-By @StarkBots
+🤖
+By @nautaii
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
+        [InlineKeyboardButton(text="💚 PRINCIPAL💚", callback_data="home")],
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("🤖CAMBIOS🤖", url="https://t.me/stikerino")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("👁️HELP👁️", callback_data="help"),
+            InlineKeyboardButton("✋ INFO✋", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("♥ DESARROLLADOR♥", url="https://t.me/nautaii")],
+        [InlineKeyboardButton("SOPORTE", url="https://t.me/stikerino")],
     ]
 
     # Help Message
     HELP = """
 **Help & Features**
 
-1) Send any message to get your ID.
-2) Forward any message from any user/bot/channel or anonymous admins to get ID.
-3) Send any sticker to get sticker id.
-4) Use Inline Mode to send your ID in any chat.
-5) Add in group / channel to get ID.
-6) Use /id command:
-- in private: To get ID through username
-- in group/channel: To get ID of that chat. 
+1)Envíe cualquier mensaje para obtener su identificación.
+2) Reenvíe cualquier mensaje de cualquier usuario/bot/canal o administradores anónimos para obtener ID.
+3) Envíe cualquier pegatina para obtener ID de etiqueta.
+4) Use el modo en línea para enviar su identificación en cualquier chat.
+5) Agregue el grupo / canal para obtener ID.
+6) Comando de uso /id:
+- En privado: para obtener identificación a través del nombre de usuario
+- En grupo/canal: para obtener la identificación de ese chat.
 
-✨ **Available Commands** ✨
+✨ COMANDOS ✨
 
-/id - Get ID
-/about - About The Bot
-/help - This Message
-/start - Start the Bot
+/id - Obtener (ID)
+/about - Información
+/help - Mensaje de ayuda
+/start - Inicia el bot
     """
 
     # About Message
     ABOUT = """
 **About This Bot** 
 
-A telegram bot to get id of any user, group, bot, channels and even stickers. by @StarkBots
+BOT PROGRAMADO PARA SABER EL ID. by @nautaii
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/ID-Bot)
-
-Framework : [Pyrogram](docs.pyrogram.org)
-
-Language : [Python](www.python.org)
-
-Developer : @StarkProgrammer
+Programandor : @nautaii
     """
